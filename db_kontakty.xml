@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kontakts>
+<kontakt>
+	<krstne_meno>Adam</krstne_meno>
+	<priezvisko>Hajro</priezvisko>
+	<tel_cislo>0940 555 666</tel_cislo>
+	<poznamka> moje tel. č.</poznamka>
+</kontakt>
+<kontakt>
+	<krstne_meno>Alex</krstne_meno>
+	<priezvisko> </priezvisko>
+	<tel_cislo>0954835231</tel_cislo>
+	<poznamka> </poznamka>
+</kontakt>
+<kontakt>
+	<krstne_meno>Braňo</krstne_meno>
+	<priezvisko> </priezvisko>
+	<tel_cislo>0966 552 333</tel_cislo>
+	<poznamka> </poznamka>
+</kontakt>
+<kontakt>
+	<krstne_meno>Juraj</krstne_meno>
+	<priezvisko>Vie</priezvisko>
+	<tel_cislo>0987 654 321</tel_cislo>
+	<poznamka> </poznamka>
+</kontakt>
+<kontakt>
+	<krstne_meno>Peter</krstne_meno>
+	<priezvisko>Kováč</priezvisko>
+	<tel_cislo>0911 222 333</tel_cislo>
+	<poznamka>Práca</poznamka>
+</kontakt>
+<kontakt>
+	<krstne_meno>Peter</krstne_meno>
+	<priezvisko>Peteraj</priezvisko>
+	<tel_cislo>0988 555 666</tel_cislo>
+	<poznamka>Práca</poznamka>
+</kontakt>
+</kontakts>

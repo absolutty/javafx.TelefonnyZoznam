@@ -1,0 +1,84 @@
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane fx:id="mainBorderPane" fx:controller="sk.uniza.fri.telefonnyzoznam.controllers.MainController"
+            xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <MenuBar>
+            <Menu text="Kontakt" onMenuValidation="#jeZakliknutyKontakt">
+                <MenuItem text="Pridaj" onAction="#pridajKontakt">
+                    <graphic>
+                        <ImageView>
+                            <Image url = "file:src/main/resources/sk/uniza/fri/telefonnyzoznam/images/menu/ico_New.png"/>
+                        </ImageView>
+                    </graphic>
+                </MenuItem>
+
+                <MenuItem text="Uprav" onAction="#upravKontakt" disable="true" fx:id="btn_uprav">
+                    <graphic>
+                        <ImageView>
+                            <Image url = "file:src/main/resources/sk/uniza/fri/telefonnyzoznam/images/menu/ico_Edit.png"/>
+                        </ImageView>
+                    </graphic>
+                </MenuItem>
+
+                <MenuItem text="Vymaž" onAction="#vymazKontakt" disable="true" fx:id="btn_vymaz">
+                    <graphic>
+                        <ImageView>
+                            <Image url = "file:src/main/resources/sk/uniza/fri/telefonnyzoznam/images/menu/ico_Delete.png"/>
+                        </ImageView>
+                    </graphic>
+                </MenuItem>
+            </Menu>
+
+            <Menu text="Aplikácia">
+                <MenuItem text="Nastavenia">
+                    <graphic>
+                        <ImageView>
+                            <Image url = "file:src/main/resources/sk/uniza/fri/telefonnyzoznam/images/menu/ico_Settings.png"/>
+                        </ImageView>
+                    </graphic>
+                </MenuItem>
+
+                <MenuItem text="O aplikácií" onAction="#otvorInfo">
+                    <graphic>
+                        <ImageView>
+                            <Image url = "file:src/main/resources/sk/uniza/fri/telefonnyzoznam/images/menu/ico_Github.png"/>
+                        </ImageView>
+                    </graphic>
+                </MenuItem>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <TableView fx:id="contactsTable">
+            <columnResizePolicy><TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/></columnResizePolicy>
+
+            <columns>
+                <TableColumn text="Meno">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="krstneMeno"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Priezvisko">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="priezvisko"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Telefónne číslo">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="telCislo"/>
+                    </cellValueFactory>
+                </TableColumn>
+                <TableColumn text="Dodatočné info">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="poznamka"/>
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </center>
+</BorderPane>
