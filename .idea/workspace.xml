@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03c5dde2-327e-44bd-9452-360b42351109" name="Changes" comment="" />
+    <list default="true" id="03c5dde2-327e-44bd-9452-360b42351109" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_kontakty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/db_kontakty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/uniza/fri/telefonnyzoznam/controllers/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/uniza/fri/telefonnyzoznam/controllers/InfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sk/uniza/fri/telefonnyzoznam/layouts/res_info-dialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sk/uniza/fri/telefonnyzoznam/layouts/res_info-dialog.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/sk/uniza/fri/telefonnyzoznam/images/menu" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -92,11 +99,48 @@
       <workItem from="1639147774926" duration="10194000" />
       <workItem from="1639207276962" duration="981000" />
       <workItem from="1639209438917" duration="6995000" />
-      <workItem from="1639427705719" duration="3685000" />
+      <workItem from="1639427705719" duration="6757000" />
+      <workItem from="1639435840448" duration="420000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding README.md">
+      <created>1639431503348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639431503348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding README.md" />
   </component>
 </project>
